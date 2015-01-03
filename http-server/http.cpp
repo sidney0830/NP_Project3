@@ -239,6 +239,7 @@ int parseRequest (int fd, string input)
       if (n <= 0) break;/* connection terminated */
       else
       {
+
          write(fd,line, strlen(line));
           cout << "line ="<<input<< endl;
       }
