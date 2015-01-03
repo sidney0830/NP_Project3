@@ -21,10 +21,10 @@ using namespace std;
 
 
 
-#define SERV_TCP_PORT 3334
+#define SERV_TCP_PORT 3336
 #define MAX_CHAR 1024
-#define HOSTNAME "nplinux2.cs.nctu.edu.tw"
-#define HOSTADDR "140.113.235.167"
+#define HOSTNAME "nplinux1.cs.nctu.edu.tw"
+#define HOSTADDR "140.113.235.166"
 #define pwd "/net/other/2015_1/c0353416/public_html/"
 #define MAXLINE 10100
 
@@ -46,8 +46,6 @@ int main(int argc, char *argv[])
   struct sockaddr_in cli_addr;
   msockfd =set_msockfd(argc,argv);
   cerr << "msockfd: " << msockfd << endl;
-  cerr << "port: " << SERV_TCP_PORT<< endl;
-
 // cerr << "main:" << endl;
   for ( ; ; )
   {
@@ -133,18 +131,13 @@ void HTTPrequest (int sockfd)
         {
           size_t pos2 = input.substr(4).find(" ");
           a = input.substr(5,pos2-1);
-          cout << "input ===="<<input << endl;
-         parseRequest(sockfd,a);
-
-         return ;
-
           // m << input.substr(5,pos2);
         }
+         cout << "input ===="<<input << endl;
+         parseRequest(sockfd,a);
          first=false;
-
-      }
-
-     cout << "HTTPrequest" <<endl;
+         break;
+     }
   }
 
 }
@@ -182,7 +175,7 @@ int parseRequest (int fd, string input)
   }
   cout << "QUERY_STRING ="<<Q_str<<"="<< endl;
   cout << "SCRIPT_NAME ="<<file<<"="<< endl;
-clearenv();
+
   setenv("REQUEST_METHOD", "GET", 1);
   setenv("QUERY_STRING", Q_str.c_str(), 1);
   setenv("CONTENT_LENGTH", "", true);
@@ -241,20 +234,20 @@ clearenv();
       int n;
       n=readline(fileno(filefd), line, MAX_CHAR);
       string input = string(line);
-
+      cout << "line ="<<input<< endl;
       if (n <= 0) break;/* connection terminated */
       else
       {
-
          write(fd,line, strlen(line));
-          cout << "line ="<<input<< endl;
+
+
       }
     }//while(1)
     cout << "********** end read tag "<< endl;
-    // fclose(filefd);
+    fclose(filefd);
 
   }
-// return 0 ;
+
 
 }
 
