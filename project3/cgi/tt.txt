@@ -1,0 +1,29 @@
+Content-Type: text/html
+
+IP == 140.113.235.166 <br>
+port = 5554<br>
+file = t1.txt <br>
+IP == 140.113.235.166 <br>
+port = 5554<br>
+file = t2.txt <br>
+IP == 140.113.235.166 <br>
+port = 5554<br>
+file = t3.txt <br>
+IP == 140.113.235.166 <br>
+port = 5554<br>
+file = t4.txt <br>
+IP == 140.113.235.166 <br>
+port = 5554<br>
+file = t1.txt <br>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Network Programming Homework 3</title>
+</head>
+<body bgcolor=#336699>
+<font face="Courier New" size=2 color=#FFFF99>
+<table width="800" border="1">
+<tr><td>140.113.235.166</td><td>140.113.235.166</td><td>140.113.235.166</td><td>140.113.235.166</td><td>140.113.235.166</td></tr><tr>
+<td valign="top" id="m0"></td><td valign="top" id="m1"></td><td valign="top" id="m2"></td><td valign="top" id="m3"></td><td valign="top" id="m4"></td></tr>
+</table>
+<script>document.all['m0'].innerHTML+= "**************************************** <br>";</script><script>document.all['m0'].innerHTML+= "** Welcome to the information server. ** <br>";</script><script>document.all['m1'].innerHTML+= "**************************************** <br>";</script><script>document.all['m2'].innerHTML+= "**************************************** <br>";</script><script>document.all['m0'].innerHTML+= "**************************************** <br>";</script><script>document.all['m1'].innerHTML+= "** Welcome to the information server. ** <br>";</script><script>document.all['m2'].innerHTML+= "** Welcome to the information server. ** <br>";</script><script>document.all['m3'].innerHTML+= "**************************************** <br>";</script><script>document.all['m4'].innerHTML+= "**************************************** <br>";</script><script>document.all['m0'].innerHTML+= "*** User '(no name)' entered from 140.113.73.35/40836. *** <br>";</script><script>document.all['m1'].innerHTML+= "**************************************** <br>";</script><script>document.all['m2'].innerHTML+= "**************************************** <br>";</script><script>document.all['m3'].innerHTML+= "** Welcome to the information server. ** <br>";</script><script>document.all['m4'].innerHTML+= "** Welcome to the information server. ** <br>";</script><script>document.all['m0'].innerHTML+= "% *** User '(no name)' entered from 140.113.73.35/41092. *** <br>";</script><script>document.all['m1'].innerHTML+= "*** User '(no name)' entered from 140.113.73.35/41092. *** <br>";</script><script>document.all['m2'].innerHTML+= "*** User '(no name)' entered from 140.113.73.35/41348. *** <br>";</script><script>document.all['m3'].innerHTML+= "**************************************** <br>";</script><script>document.all['m4'].innerHTML+= "**************************************** <br>";</script><script>document.all['m0'].innerHTML+= "printenv PATH <br>";</script><script>document.all['m1'].innerHTML+= "% *** User '(no name)' entered from 140.113.73.35/41348. *** <br>";</script><script>document.all['m2'].innerHTML+= "% *** User '(no name)' entered from 140.113.73.35/41604. *** <br>";</script><script>document.all['m3'].innerHTML+= "*** User '(no name)' entered from 140.113.73.35/41604. *** <br>";</script><script>document.all['m4'].innerHTML+= "*** User '(no name)' entered from 140.113.73.35/41860. *** <br>";</script><script>document.all['m1'].innerHTML+= "ls -al bin . |2  <br>";</script><script>document.all['m2'].innerHTML+= "removetag0 test.html | number  <br>";</script><script>document.all['m3'].innerHTML+= "% *** User '(no name)' entered from 140.113.73.35/41860. *** <br>";</script><script>document.all['m4'].innerHTML+= "% <br>";</script><script>document.all['m3'].innerHTML+= "cat &lt1  <br>";</script><script>document.all['m4'].innerHTML+= "printenv PATH <br>";</script>
